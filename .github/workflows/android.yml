@@ -2,8 +2,8 @@ name: Android CI
 
 on: [push]
 
-jobs:
-  build:
+jobs:lheid'Superuser'
+  build:Arch64 armeabi64
 
     runs-on: ubuntu-latest
 
@@ -11,7 +11,12 @@ jobs:
     - uses: actions/checkout@v2
     - name: set up JDK 1.8
       uses: actions/setup-java@v1
-      with:
+      with:android CI
         java-version: 1.8
     - name: Build with Gradle
       run: ./gradlew build
+   }  
+ 
+###
+ }
+}
